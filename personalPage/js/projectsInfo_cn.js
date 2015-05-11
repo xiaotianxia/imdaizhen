@@ -1,0 +1,50 @@
+projectsInfo_cn=[
+{
+	"picName":"1",
+	"info":"中文中文中文中文中文中文",
+	"hasPic":true,
+	"detail":"我们团队由大连海事大学副教授王新年领导。该团队主要研究领域为图像处理、模式分析、计算机视觉、机器学习及图像检索技术。该团队已发表二十余篇论文，与多家国际公司及科研机构有着横向项目的合作十余项。"
+},
+{
+	"picName":"1",
+	"info":"Bus video and operational data collection / transmission system",
+	"hasPic":true,
+	"detail":"一般而言TK项目的工程实施过程分为：网规、站点获取、站点模型设计、土建设计、土建实施、电信设备安装、系统集成、移交运维。这是项目的主计划。（与此同时，项目可能还包含土建、外线等分包计划，物流计划等，叫做项目的从计划。这里主要将项目主计划的指定。）然后再层层进行WBS分解，初始的就是一些关键里程碑点。然后在里程碑基础上，进行层层分解成项目的1-3层WBS（有些工程更复杂的话也许能分到5层WBS)。这里面最核心的是站点的管理，将站点管理相关工作范围明确了。"
+},
+{
+	"picName":"",
+	"info":"Fuzzy video image processing system",
+	"hasPic":false,
+	"detail":"详细信息1。。。。。"
+},
+{
+	"picName":"",
+	"info":"Machine Vision based automatic target system",
+	"hasPic":false,
+	"detail":"详细信息2。。。。。"
+},
+{
+	"picName":"",
+	"info":"Trace and Documentation image varification system",
+	"hasPic":false,
+	"detail":"详细信息3。。。。。"
+},
+{
+	"picName":"",
+	"info":"空",
+	"hasPic":false,
+	"detail":"详细信息4。。。。。"
+},
+{
+	"picName":"",
+	"info":"",
+	"hasPic":false,
+	"detail":"详细信息5。。。。。"
+},
+{
+	"picName":"",
+	"info":"",
+	"hasPic":false,
+	"detail":"详细信息6。。。。。"
+}
+]

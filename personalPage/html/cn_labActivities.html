@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>王新年导师个人网页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.js"></script>
+<link rel="stylesheet" href="../css/slidePicCss.css" />
+<script src="../js/currentTime1.js"></script>
+</head>
+<body>
+<!-- header -->
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="cn_index.html">王<span>新年</span></a><small>个人网页</small></h1>
+      </div>
+       <div class="shift">
+        <p><a href="index.html">English</a></p>
+      </div>
+      <div class="menu_nav">
+       <ul>
+          <li><a href="cn_index.html"><span>主页</span></a></li>
+          <li><a href="cn_aboutUs.html"><span>关于我们</span></a></li>
+          <li><a href="cn_People.html"><span>团队</span></a></li>
+          <li><a href="cn_Projects.html"><span>项目</span></a></li>
+          <li><a href="cn_Publications.html"><span>论文</span></a></li>
+          <li class="active"><a href="cn_labActivities.html"><span>活动</span></a></li>
+      </ul>        
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>      
+  </div>
+  <div class="top">
+     <span id="timeText">您好，欢迎光临！</span>
+  </div>
+  <div class="clear"></div>
+<!-- header end -->
+<!-- content -->
+  <div class="content"style="overflow:hidden;">
+    <div class="menu" style="width:100%;">
+        实验室活动
+    </div>
+    <div class="slider">  <!-- 滑动照片 --> 
+      <div class="bd">
+          <ul>
+            <li><a target="_blank"><img src="../images/activities/1.jpg" /></a></li>
+            <li><a target="_blank"><img src="../images/activities/2.jpg" /></a></li>
+            <li><a target="_blank"><img src="../images/activities/3.jpg" /></a></li> 
+            <li><a target="_blank"><img src="../images/activities/4.jpg" /></a></li> 
+            <li><a target="_blank"><img src="../images/activities/5.jpg" /></a></li>
+            <li><a target="_blank"><img src="../images/activities/6.jpg" /></a></li>
+            <li><a target="_blank"><img src="../images/activities/7.jpg" /></a></li> 
+            <li><a target="_blank"><img src="../images/activities/8.jpg" /></a></li> 
+          </ul>
+        </div>
+        <div class="hd"><ul></ul></div>
+        <div class="pnBtn prev">
+          <span class="blackBg"></span>
+          <a class="arrow" href="javascript:void(0)"></a>
+        </div>
+        <div class="pnBtn next">
+          <span class="blackBg"></span>
+          <a class="arrow" href="javascript:void(0)"></a>
+        </div>
+      </div>  
+ 
+  </div>
+
+
+<!-- content end -->
+
+<!-- footer -->
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+        <h2><span>照片墙</span></h2>     <!-- 底部照片 -->
+        <a href="#"><img src="../images/imageWall/1.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/2.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/3.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/4.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/5.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/6.jpg" width="58" height="58" alt="pic" /></a> 
+      </div>
+      <div class="col c2">
+        <h2><span>联系我们</span></h2>
+          个人信息<br />
+          <p>
+            <a href="#">
+              姓名：王新年 <br /> 
+              地址: 大连市凌海路1号 / 邮编： 116026 <br />
+              电话: 86-411-84729564 <br />
+              手机: 13074109983 <br />
+              QQ: 99778935 <br />
+              电子邮箱: wxn@dlmu.edu.cn
+            </a>
+          </p>
+      </div>
+      <div class="col c3">
+        <h2><span>关于我们</span></h2>
+        <p><a href="http://www.dlmu.edu.cn/" target="_blank"><img src="../images/schoolLogo.png" alt="" style="width:150px;height:150px;" /></a></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="footer">
+      <p class="lr"> 版权所有&copy; <a href="#">2015 王新年团队</a></p>
+      <div class="clr"></div>
+    </div>
+  </div>
+<!-- footer -->
+</body>
+<!-- 滑动大图 -->
+  <script type="text/javascript">
+    jQuery(".slider .bd li").first().before( jQuery(".slider .bd li").last() );
+    jQuery(".slider").hover(function(){ jQuery(this).find(".arrow").stop(true,true).fadeIn(300) },function(){ jQuery(this).find(".arrow").fadeOut(300) });
+    jQuery(".slider").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"leftLoop",  autoPlay:true, vis:3, autoPage:true, trigger:"click"});
+  </script>
+<!-- 滑动大图 end -->
+</html>

@@ -1,0 +1,21 @@
+.left1{
+	margin: 20px;
+	float: left;
+}
+.right1{
+	margin: 5px;
+	color:#000;
+	float: right;
+	width: 800px;
+}	
+.right1 h1{
+	padding: 10px;
+}
+.right1 p{
+	padding-left: 10px;
+	font-size:25px;
+}
+.clear{
+	height: 1px;
+	clear: both;
+}

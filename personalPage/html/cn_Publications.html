@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>王新年导师个人网页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../css/common.css" rel="stylesheet" type="text/css" />
+<link href="../css/publicationsStyle.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/dataOperation.js"></script>
+<script src="../js/currentTime1.js"></script>
+<script src="../js/publicationsInfo_cn.js"></script>
+<script src="../js/popWin.js"></script>
+</head>
+<body>
+<!-- header -->
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="cn_index.html">王<span>新年</span></a><small>个人网页</small></h1>
+      </div>
+       <div class="shift">
+        <p><a href="index.html">English</a></p>
+      </div>
+      <div class="menu_nav">
+       <ul>
+          <li><a href="cn_index.html"><span>主页</span></a></li>
+          <li><a href="cn_aboutUs.html"><span>关于我们</span></a></li>
+          <li><a href="cn_People.html"><span>团队</span></a></li>
+          <li><a href="cn_Projects.html"><span>项目</span></a></li>
+          <li class="active"><a href="cn_Publications.html"><span>论文</span></a></li>
+          <li><a href="cn_labActivities.html"><span>活动</span></a></li>
+      </ul>        
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>      
+  </div>
+     
+  <div class="top">
+    <span id="timeText">您好，欢迎光临！</span>
+  </div>
+  <div class="clear"></div>
+<!-- header end -->
+<!-- content -->
+  <div class="content">
+    <div class="container1">
+      <div class="menu">
+        发表论文
+      </div>
+      <table class="publicationsTable">
+        <tr class="head">
+          <td class="">题目</td>
+          <td class="">出处</td>
+          <td class="">下载</td>
+          <td class="">引用</td>
+        </tr>
+      </table>
+      <div id="quoteItDiv" style="display:none;width:700px;">
+        <div>复制并引用</div>
+        <input type="text" class="refContent" style="width:90%;" />
+      </div>
+    </div>
+ 
+  </div>
+
+
+<!-- content end -->
+
+<!-- footer -->
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+        <h2><span>照片墙</span></h2>     <!-- 底部照片 -->
+        <a href="#"><img src="../images/imageWall/1.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/2.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/3.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/4.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/5.jpg" width="58" height="58" alt="pic" /></a> 
+        <a href="#"><img src="../images/imageWall/6.jpg" width="58" height="58" alt="pic" /></a> 
+      </div>
+      <div class="col c2">
+        <h2><span>联系我们</span></h2>
+          个人信息<br />
+          <p>
+            <a href="#">
+              姓名：王新年 <br /> 
+              地址: 大连市凌海路1号 / 邮编： 116026 <br />
+              电话: 86-411-84729564 <br />
+              手机: 13074109983 <br />
+              QQ: 99778935 <br />
+              电子邮箱: wxn@dlmu.edu.cn
+            </a>
+          </p>
+      </div>
+      <div class="col c3">
+        <h2><span>关于我们</span></h2>
+        <p><a href="http://www.dlmu.edu.cn/" target="_blank"><img src="../images/schoolLogo.png" alt="" style="width:150px;height:150px;" /></a></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="footer">
+      <p class="lr"> 版权所有&copy; <a href="#">2015 王新年团队</a></p>
+      <div class="clr"></div>
+    </div>
+  </div>
+<!-- footer -->
+</body>
+<script>
+  $(function(){
+    publicationsLoad_cn(publicationsInfo_cn,"publicationsTable");
+  })
+</script>
+</html>
