@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+/*common*/
+*{
+    padding: 0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+::selection{
+    background-color:#e20;
+    color:#fff;
+}
+.clr{/*清除浮动*/
+    clear:both;
+}
+html{
+    background:#506f8b; 
+    background-image: -webkit-radial-gradient(circle,#506f8b 2%,#1d1e2e 80%);   
+}
+#left{
+    position: fixed;
+    top:20px;
+    bottom: 20px;
+    width: 200px;
+}
+#right{
+    position: absolute;
+    left: 220px;
+    right: 10px;
+    bottom: 20px;/*后来改为0  换成padding*/
+    top:20px;
+    border-left:1px solid #f00;
+    overflow: hidden;
+}
+/*logo part*/
+#logo{
+    width:100%;
+    height:150px;
+}
+#logo #name{
+    position:absolute;
+    left: 25px;
+    top:25px;
+    font: 25px "微软雅黑" sans-serif;
+    color:#fff;
+}
+/*bayMax part*/
+.baymax{
+    width:114px;
+    height:76px;
+    position:relative;
+    background:-webkit-linear-gradient(top, #fff 30%, #d6d6d6);
+    background:-moz-linear-gradient(top, #fff 30%, #ccc 60%, #d6d6d6 90%);
+    background:linear-gradient(top, #fff 30%, #d6d6d6);
+    border-radius:50% 50% 45% 45%;
+    margin:0 auto;
+    /*margin-left:10px;*/
+    margin-top:80px;
+    box-shadow:0 5px 5px rgba(0,0,0,0.2);
+    z-index:500;
+}
+.mouth{
+    position:absolute;
+    width:60px;
+    height:5px;
+    border-radius:50%;
+    box-shadow:0 1px 0 #333;
+    top:32px;
+    left:26px;
+}
+.lefteye{
+    position:absolute;
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:#333;
+    top:30px;
+    left:23px;
+    -webkit-animation:blink 2s ease infinite;
+    -moz-animation:blink 2s ease infinite;
+    animation:blink 2s ease infinite;
+}
+.righteye{
+    position:absolute;
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:#333;
+    top:30px;
+    left:74px;
+    -webkit-animation:blink 2s ease infinite;
+    -moz-animation:blink 2s ease infinite;
+    animation:blink 2s ease infinite;
+}
+@keyframes blink{
+    0%,20%, 100%{
+    -webkit-transform:scale(1,1);
+    -moz-transform:scale(1,1);
+    transform:scale(1,1);
+    }
+    10%{
+        -webkit-transform:scale(1,0.2);
+        -moz-transform:scale(1,0.2);
+        transform:scale(1,0.2);
+    }
+}
+@-webkit-keyframes blink{
+    0%,20%, 100%{
+        -webkit-transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        transform:scale(1,1);
+    }
+    10%{
+        -webkit-transform:scale(1,0.2);
+        -moz-transform:scale(1,0.2);
+        transform:scale(1,0.2);
+    }
+}
+/*bayMax part end*/
+#time{
+    margin: 20px 0 0 30px;
+    color:#fff;
+    font: 15px "微软雅黑" sans-serif;
+}
+/*logo part end*/
+/*nav part*/
+#nav{
+    /*border:1px solid yellow;*/
+    margin-left: 10px;
+    border-left: 4px #f20 solid;
+    height: 250px;
+
+}
+#nav li{
+    margin: 40px 0 0 20px;
+    width: 100px;
+    padding: 5px;
+    font-size:20px;
+    font-weight: bold;
+    -webkit-transition:all .3s ease-in;
+    -moz-transition:all .3s ease-in;
+    transition:all .3s ease-in;
+}
+#nav li a{
+    color:#fff;
+}
+#nav li:hover{
+    background:#e20;
+    margin-left: 10px;
+}
+/*nav part end*/
+/*motto part*/
+#motto{
+    width: 200px;
+    height:25px;
+    overflow: hidden;
+    position: fixed;
+    bottom:50px;
+    left:20px;
+    font:18px "微软雅黑" sans-serif;
+    color:#fff;
+}
+#mottoCN{
+    -webkit-animation:show2Hide 3s ease infinite; 
+}
+#mottoEN{
+    -webkit-animation:hide2Show 3s ease infinite; 
+}
+/*motto animation*/
+@-webkit-keyframes show2Hide{
+    0%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: -25px;
+    }
+}
+@-webkit-keyframes hide2Show{
+    0%{
+        margin-top: 25px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+/*motto animation end*/
+/*motto part end*/
+.container{
+    width: 100%;
+    height: 100%;
+}
+.label{
+    height: 20px;
+    width: 80px;
+    padding: 3px;
+    background: #e20;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*为div设置阴影*/
+.boxShadow{
+    position:relative;
+    background: #fff;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.8),
+                0px 0px 40px rgba(0,0,0,0.1) inset;
+}
+/*为div设置阴影end*/
+/*为img设置阴影*/
+.imgShadow{
+    border:5px solid #efefef;
+    background:#fff;
+    position:relative;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3),
+                0 0 60px rgba(0,0,0,0.1) inset;
+}
+/*为img设置阴影end*/
+/*common end*/

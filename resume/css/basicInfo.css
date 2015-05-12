@@ -43,4 +43,34 @@
     }
 }
 
-
+/*校园照片*/
+#photoDiv{
+    position: relative;
+    left:50%;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+#photoDiv img{
+    position: absolute;
+    transition:all 1s ease-in-out;
+}
+.photo1{
+    z-index: 1;
+    transform:translate(-80px,20px) rotate(-20deg);
+    transform-origin:100px 200px;
+}
+.photo2{
+    z-index: -1;
+}
+.photo3{
+    z-index: 1;
+    transform:translate(80px,20px) rotate(20deg);
+    transform-origin:100px 200px;
+}
+#photoDiv:hover .photo1{
+    transform:translate(-150px,20px) rotate(-40deg);
+}
+#photoDiv:hover .photo3{
+    transform:translate(150px,20px) rotate(40deg);
+}
+/*校园照片*/
