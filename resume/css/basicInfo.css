@@ -59,7 +59,7 @@
     position: relative;
     left:50%;
     margin-left: -100px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 #photoDiv img{
     position: absolute;

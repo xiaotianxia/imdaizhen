@@ -4,22 +4,21 @@
 #diagramCont{
     width: 460px;
     height: 150px;
-    /*margin: 20px 0 0 20px;*/
     margin:20px auto;
     border-top: 4px solid #000;
     border-bottom: 4px solid #000;
 }
 #diagramCont .skillDiv{
     float: left;
+    position: relative;
     width: 40px;
     height: 130px;
-    position: relative;
     margin-left: 10px;
     margin-right: 42px;
     margin-top:20px;
     background: #1A1927;
 }
-/*添加为元素  显示div中data-info的文字*/
+/*添加伪元素  显示div中data-info的文字*/
 #diagramCont .skillDiv:after{
     content:attr(data-info);
     color:#fff;
@@ -67,6 +66,43 @@
 }
 /*c2出现时高度过度 end*/
 /*技能图表end*/
+
+/*提示气泡*/
+.bubble{
+    display: none;
+    z-index: 2;
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    padding: 2px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 25px;
+    font-size: 10px;
+    top: 100%;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+.bubble:after{
+    content:" ";
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top:-20px;
+    left: 50%;
+    margin-left: -10px;
+    /*三角*/
+    border-top:10px solid transparent;
+    border-left:10px solid transparent;
+    border-bottom:10px solid #fff;
+    border-right:10px solid transparent;
+}
+.skillDiv:hover .bubble{
+    display: block;
+}
+/*提示气泡end*/
 
 /*技能描述*/
 #skillsWords{
