@@ -27,7 +27,6 @@ html{
     top:20px;
     bottom: 20px;
     width: 200px;
-    border:1px solid #000;
 }
 #right{
     position: absolute;
@@ -172,6 +171,7 @@ html{
 #mottoEN{
     -webkit-animation:hide2Show 3s ease infinite; 
 }
+/*motto animation*/
 @-webkit-keyframes show2Hide{
     0%{
         margin-top: 0;
@@ -188,6 +188,7 @@ html{
         margin-top: 0;
     }
 }
+/*motto animation end*/
 /*motto part end*/
 .container{
     width: 100%;

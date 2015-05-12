@@ -4,11 +4,12 @@ function projectsLoad(jsonName,tableClass){
 	var jsonLen=jsonName.length;
 	var trString="<tr>";
 	for(var i=0;i<jsonLen;i++){
-		trString+="<td align='center' id='"+i+"' onclick='showProjectDetail(this);'><img src='images/"
+		trString+="<td align='center' id='"+i
+				+"' onclick='showProjectDetail(this);'><img src='images/"
 				+(jsonName[i].picName==''?"noPic":jsonName[i].picName)
-				+".jpg' style='width:200px;height:150px;' alt='"+jsonName[i].info
-				+" title='点击查看详情'/>"
-				+"<p style='color:#000;'>"+jsonName[i].info+"</p></td>"
+				+".jpg' width='200' height='150' alt='"+jsonName[i].info
+				+"' title='点击查看详情' /><p style='color:#fff;'>"
+				+jsonName[i].info+"</p></td>"
 		if(i%3==2){
 			trString+="</tr>";
 		}
