@@ -14,6 +14,7 @@
     <script src="js/projectsInfo.js"></script>
     <script src="js/dataOperation.js"></script>
 </head>
+
 <body>
     <!-- 左侧 -->
     <div id="left">
@@ -27,7 +28,7 @@
                 <div class="righteye"></div>
             </div>
             <div id="time">
-              <span id="timeText">Hi, welcome!</span>
+                <span id="timeText">Hi, welcome!</span>
             </div>
         </div>
         <div>
@@ -40,23 +41,26 @@
         </div>
     </div>
     <!-- 左侧end -->
-
     <!-- 右侧 -->
     <div id="right">
         <!-- part1 -->
         <div id="c1" class="container container1">
-           <div id="description">
+            <div id="description">
                 <div class="label">基本信息</div>
                 <div class="boxShadow basicInfo">
-                    <span class="descTitle">学校：</span><span>北京邮电大学</span> <br />
-                    <span class="descTitle">专业：</span><span>信息与通信工程</span> <br />
-                    <span class="descTitle">邮箱：</span><span>434523316@qq.com</span> <br />
-                    <span class="descTitle">github：</span><span><a target="_blank" href="http://github.com/xiaotianxia">github.com/xiaotianxia</a></span> <br>
+                    <span class="descTitle">学校：</span><span>北京邮电大学</span>
+                    <br />
+                    <span class="descTitle">专业：</span><span>信息与通信工程</span>
+                    <br />
+                    <span class="descTitle">邮箱：</span><span>434523316@qq.com</span>
+                    <br />
+                    <span class="descTitle">github：</span><span><a target="_blank" href="http://github.com/xiaotianxia">github.com/xiaotianxia</a></span>
+                    <br>
                 </div>
-           </div> 
-           <div class="imgShadow schoolPic" ></div> 
-           <div class="clr"></div>
-           <div id="detailInfoDiv">
+            </div>
+            <div class="imgShadow schoolPic"></div>
+            <div class="clr"></div>
+            <div id="detailInfoDiv">
                 <div class="label">学历信息</div>
                 <div class="boxShadow SchoolInfo">
                     <p>2013.9-至今&nbsp;北京邮电大学&nbsp;硕士研究生&nbsp;信息与通信工程学院&nbsp;可信分布式计算与服务教育部重点实验室&nbsp;多媒体通信与交互技术室</p>
@@ -64,60 +68,66 @@
                 <div class="boxShadow SchoolInfo">
                     <p>2009.9-2013.7&nbsp;大连民族大学&nbsp;学士&nbsp;信息与通信工程学院&nbsp;电子信息工程专业</p>
                 </div>
-           </div>
+            </div>
         </div>
         <!-- part1 end -->
-
         <!-- part2 -->
         <div id="c2" class="container container2">
             <div class="label">前端技能</div>
-           <div id="skillsDiagram">
-               <div id="diagramCont">
-                   <div class="skillDiv" data-info="HTML">
-                       <div class="percent percent1"></div>
-                   </div>
-                   <div class="skillDiv" data-info="JavaScript">
-                       <div class="percent percent2"></div>
-                   </div>
-                   <div class="skillDiv" data-info="CSS">
-                       <div class="percent percent3"></div>
-                   </div>
-                   <div class="skillDiv" data-info="jQuery">
-                       <div class="percent percent4"></div>
-                   </div>
-                   <div class="skillDiv" data-info="others">
-                       <div class="percent percent5"></div>
-                   </div>
-               </div>
-           </div> 
+            <div id="skillsDiagram">
+                <div id="diagramCont">
+                    <div class="skillDiv" data-info="HTML">
+                        <div class="percent percent1"></div>
+                    </div>
+                    <div class="skillDiv" data-info="JavaScript">
+                        <div class="percent percent2"></div>
+                    </div>
+                    <div class="skillDiv" data-info="CSS">
+                        <div class="percent percent3"></div>
+                    </div>
+                    <div class="skillDiv" data-info="jQuery">
+                        <div class="percent percent4"></div>
+                    </div>
+                    <div class="skillDiv" data-info="others">
+                        <div class="percent percent5"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="skillsWords">
+              <ul>
+                <li id="sw1">熟悉HTML/CSS/JavaScript/JSON、jQuery库、Ajax技术等，了解HTML5、CSS3、LESS、SASS、BootStrap、AngularJS等，具有WEB开发经验及成果;</li>
+                <li id="sw2">了解Java、PHP、C语言等基础，熟悉前后台联调，熟悉Photoshop等图像处理软件；</li>
+                <li id="sw3">证书：计算机二级证书，英语六级证书，英语四、六级口语证书；</li>
+                <li id="sw4">具有一定的组织协调能力，协调团队完成预期的任务，并有一定的文档编写能力；</li>
+              </ul>
+            </div>
         </div>
         <!-- part2 end-->
-
         <!-- part3 -->
         <div id="c3" class="container container3">
-           <div id="experience">
-               <div class="label">项目经历</div>
-               <table class="projectsTable">
-                <!-- 通过dataOperation.js将projects.js中的json数据加载进来 -->
-                <tbody>
-                </tbody>
-              </table>
-           </div> 
+            <div id="experience">
+                <div class="label">项目经历</div>
+                <table class="projectsTable">
+                    <!-- 通过dataOperation.js将projects.js中的json数据加载进来 -->
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <div id="projectDetailDiv" style="display:none;width:600px;"></div>
         <!-- part3 end -->
-
         <!-- part4 -->
         <div id="c4" class="container container4">
-           4
+            4
         </div>
         <!-- part4 end -->
     </div>
     <!-- 右侧end -->
     <script>
-    $(function(){
-        projectsLoad(projectsInfo,"projectsTable");
-    })
+      $(function() {
+          projectsLoad(projectsInfo, "projectsTable");
+      })
     </script>
 </body>
+
 </html>
