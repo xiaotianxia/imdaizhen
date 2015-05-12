@@ -10,7 +10,7 @@
 }
 .basicInfo{
     margin: 20px 0 0 20px;
-    width: 250px;
+    width: 300px;
     padding: 20px;
     font-size: 18px;
 }
@@ -21,12 +21,26 @@
     width: 500px;
     height:260px;
     background: url(../images/school.jpg);
+    -webkit-animation:flyDn .5s ease-in-out;
+    animation:flyDn .5s ease-in-out;
 }
 .SchoolInfo{
     width: 90%;
     padding: 20px;
     margin:20px auto;
     font-size: 18px;
+}
+@-webkit-keyframes flyDn{
+    0%{
+        opacity: 0;
+        filter:alpha(opacity=0);
+        margin-top: -600px;
+    }
+    100%{
+        opacity: 1;
+        filter:alpha(opacity=100);
+        margin-top: 30px;
+    }
 }
 
 

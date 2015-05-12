@@ -82,9 +82,9 @@ html{
     background:#333;
     top:30px;
     left:23px;
-    -webkit-animation:duang 2s ease infinite;
-    -moz-animation:duang 2s ease infinite;
-    animation:duang 2s ease infinite;
+    -webkit-animation:blink 2s ease infinite;
+    -moz-animation:blink 2s ease infinite;
+    animation:blink 2s ease infinite;
 }
 .righteye{
     position:absolute;
@@ -94,11 +94,11 @@ html{
     background:#333;
     top:30px;
     left:74px;
-    -webkit-animation:duang 2s ease infinite;
-    -moz-animation:duang 2s ease infinite;
-    animation:duang 2s ease infinite;
+    -webkit-animation:blink 2s ease infinite;
+    -moz-animation:blink 2s ease infinite;
+    animation:blink 2s ease infinite;
 }
-@keyframes duang{
+@keyframes blink{
     0%,20%, 100%{
     -webkit-transform:scale(1,1);
     -moz-transform:scale(1,1);
@@ -110,7 +110,7 @@ html{
         transform:scale(1,0.2);
     }
 }
-@-webkit-keyframes duang{
+@-webkit-keyframes blink{
     0%,20%, 100%{
         -webkit-transform:scale(1,1);
         -moz-transform:scale(1,1);
