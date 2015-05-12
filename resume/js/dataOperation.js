@@ -23,9 +23,13 @@ function showProjectDetail(e){
 	popWin("projectDetailDiv");
 	var $detailDiv=$("#projectDetailDiv");
 	var $index=$(e).attr("id");
-	var $projectDetail=projectsInfo[$index].detail
+	var $projectDetail="<img src='images/"
+					  +(projectsInfo[$index].picName==''?"noPic":projectsInfo[$index].picName)
+				      +".jpg' class='imgShadow' width='400' height='280'/><br />"
+					  +projectsInfo[$index].detail
 					  +"\nwebsite:<a href='"+projectsInfo[$index].url
-					  +"' target='_blank'>"+projectsInfo[$index].url
+					  +"' target='_blank'>"
+					  +(projectsInfo[$index].url=="#"?"暂无":projectsInfo[$index].url)
 					  +"</a>";
 	$detailDiv.html($projectDetail);
 }

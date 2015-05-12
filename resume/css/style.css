@@ -35,7 +35,7 @@ html{
     right: 10px;
     bottom: 20px;/*后来改为0  换成padding*/
     top:20px;
-    border:1px solid #f00;
+    border-left:1px solid #f00;
     overflow: hidden;
 }
 /*logo part*/
@@ -155,7 +155,40 @@ html{
     margin-left: 10px;
 }
 /*nav part end*/
-
+/*motto part*/
+#motto{
+    width: 200px;
+    height:25px;
+    overflow: hidden;
+    position: fixed;
+    bottom:50px;
+    left:20px;
+    font:18px "微软雅黑" sans-serif;
+    color:#fff;
+}
+#mottoCN{
+    -webkit-animation:show2Hide 3s ease infinite; 
+}
+#mottoEN{
+    -webkit-animation:hide2Show 3s ease infinite; 
+}
+@-webkit-keyframes show2Hide{
+    0%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: -25px;
+    }
+}
+@-webkit-keyframes hide2Show{
+    0%{
+        margin-top: 25px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+/*motto part end*/
 .container{
     width: 100%;
     height: 100%;
@@ -187,19 +220,3 @@ html{
 }
 /*为img设置阴影end*/
 /*common end*/
-
-
-
-
-/*响应式布局*/
-@media screen and (max-width:1068px) and (min-width:750px){
-  /* .container1 #description{
-        float: none;
-        margin:0 auto;
-   } 
-   .container1 .schoolPic{
-        float:none;
-        margin:0 auto;
-   } */
-}
-/*响应式布局end*/
