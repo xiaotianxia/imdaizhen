@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#description{
+    float: left;
+}
+.descTitle{
+    font-weight: bold;
+    color:#000;
+    font-size: 20px;
+}
+.basicInfo{
+    margin: 20px 0 0 20px;
+    width: 250px;
+    padding: 20px;
+    font-size: 18px;
+}
+.schoolPic{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 500px;
+    height:260px;
+    background: url(../images/school.jpg);
+}
+.SchoolInfo{
+    width: 90%;
+    padding: 20px;
+    margin:20px auto;
+    font-size: 18px;
+}
+
+
