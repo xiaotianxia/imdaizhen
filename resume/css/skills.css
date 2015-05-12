@@ -72,28 +72,25 @@
 #skillsWords{
     border-left: 1px solid #000;
     border-right: 1px solid #000;
-    width: 670px;
+    width:0;
+    overflow: hidden;
+    opacity: 0;
+    filter:alpha(opacity=0);
     height:180px;
     padding-left: 20px;
-    margin:80px auto;
+    margin:200px auto;
     font-family: "微软雅黑" sans-serif;
     color:#fff;
-    -webkit-animation: slideIn .8s ease-in-out;
+    transition:all .8s ease-in-out 1s;
 }
 #skillsWords li{
     margin-top:15px;
     width: 100%;
 }
-@-webkit-keyframes slideIn{
-    0%{
-        opacity: 0;
-        filter:alpha(opacity=0);
-        width: 0;
-    }
-    100%{
-        opacity: 1;
-        filter:alpha(opacity=100);
-        width: 110%;
-    }
+#c2:target #skillsWords{
+    opacity: 1;
+    filter:alpha(opacity=100);
+    width: 670px;
 }
+
 /*技能描述end*/
