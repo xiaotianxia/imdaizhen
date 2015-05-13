@@ -16,6 +16,7 @@
 }
 .schoolPic{
     float: right;
+    position: relative;
     margin-right: 10px;
     margin-top: 10px;
     width: 500px;
@@ -27,6 +28,83 @@
     -o-animation:flyDn .5s ease-in-out;
     animation:flyDn .5s ease-in-out;
 }
+.schoolPic .schoolLogo{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    transition:all 1s ease-in-out;
+}
+.schoolPic .schoolLogo:hover{
+    transform:scale(1.1) rotate(360deg);
+}
+.schoolPic #twinkleDiv{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 86px;
+    height:86px;
+    border-radius: 50%;
+    background: rgba(200,0,0,.4);
+    -webkit-animation:twinkle 2s ease-in-out infinite;
+    -moz-animation:twinkle 2s ease-in-out infinite;
+    -ms-animation:twinkle 2s ease-in-out infinite;
+    -o-animation:twinkle 2s ease-in-out infinite;
+    animation:twinkle 2s ease-in-out infinite;
+}
+/*闪烁动画*/
+@-webkit-keyframes twinkle{
+    0%{
+        transform:scale(1.1);
+        opacity: .5;
+    }
+    100%{
+        transform:scale(1.2);
+        opacity: 0;
+    }
+}
+@-moz-keyframes twinkle{
+    0%{
+        transform:scale(1.1);
+        opacity: .5;
+    }
+    100%{
+        transform:scale(1.2);
+        opacity: 0;
+    }
+}
+@-ms-keyframes twinkle{
+    0%{
+        transform:scale(1.1);
+        opacity: .5;
+    }
+    100%{
+        transform:scale(1.2);
+        opacity: 0;
+    }
+}
+@-o-keyframes twinkle{
+    0%{
+        transform:scale(1.1);
+        opacity: .5;
+    }
+    100%{
+        transform:scale(1.2);
+        opacity: 0;
+    }
+}
+@keyframes twinkle{
+    0%{
+        transform:scale(1.1);
+        opacity: .5;
+    }
+    100%{
+        transform:scale(1.2);
+        opacity: 0;
+    }
+}
+/*闪烁动画end*/
+
 .SchoolInfo{
     width: 90%;
     padding: 20px;
