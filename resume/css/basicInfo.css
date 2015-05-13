@@ -22,6 +22,7 @@
     width: 500px;
     height:260px;
     background: url(../images/school.jpg);
+    background-size: cover;
     -webkit-animation:flyDn .5s ease-in-out;
     -moz-animation:flyDn .5s ease-in-out;
     -ms-animation:flyDn .5s ease-in-out;
@@ -111,6 +112,7 @@
     margin:20px auto;
     font-size: 18px;
 }
+
 @-webkit-keyframes flyDn{
     0%{
         opacity: 0;
