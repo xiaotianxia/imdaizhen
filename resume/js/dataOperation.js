@@ -26,8 +26,10 @@ function showProjectDetail(e){
 	var $index=$(e).attr("id");
 	var $projectDetail="<img src='images/"
 					  +(projectsInfo[$index].picName==''?"noPic":projectsInfo[$index].picName)
-				      +".jpg' class='imgShadow' width='400' height='280'/><br />"
+				      +".jpg' class='imgShadow' width='400' height='280' style='margin-left:75px;' /><br />"
+				      +"<p style='text-indent:20px;'>"
 					  +projectsInfo[$index].detail
+				      +"</p>"
 					  +"\nwebsite:<a href='"+projectsInfo[$index].url
 					  +"' target='_blank'>"
 					  +(projectsInfo[$index].url=="#"?"暂无":projectsInfo[$index].url)

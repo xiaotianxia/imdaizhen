@@ -116,7 +116,6 @@
     overflow: hidden;
     opacity: 0;
     filter:alpha(opacity=0);
-    height:180px;
     padding-left: 20px;
     margin:200px auto;
     font-family: "微软雅黑" sans-serif;
@@ -131,10 +130,13 @@
     margin-top:15px;
     width: 100%;
 }
+#skillsWords li:before{
+    content:'♦ ';
+}
 #c2:target #skillsWords{
     opacity: 1;
     filter:alpha(opacity=100);
-    width: 670px;
+    width: 80%;
 }
 
 /*技能描述end*/
