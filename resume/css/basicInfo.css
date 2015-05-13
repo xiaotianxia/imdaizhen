@@ -55,11 +55,14 @@
     }
 }
 /*校园照片*/
+#schoolPhoto{
+    margin-top: 20px;
+}
 #photoDiv{
     position: relative;
     left:50%;
     margin-left: -100px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 #photoDiv img{
     position: absolute;

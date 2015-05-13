@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 /*响应式布局*/
-@media screen and (max-width:1120px){
-   .container1 .schoolPic{
+@media screen and (max-width:1110px){
+   #detailInfoDiv{
     display:none;
-   } 
+   }
 }
 /*响应式布局end*/
