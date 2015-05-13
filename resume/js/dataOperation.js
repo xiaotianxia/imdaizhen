@@ -16,8 +16,6 @@ function projectsLoad(jsonName,tableClass){
 	}
 	$(trString).appendTo("."+tableClass+" tbody");
 }
-
-
               
 //显示项目详情
 function showProjectDetail(e){

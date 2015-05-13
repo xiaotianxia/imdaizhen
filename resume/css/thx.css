@@ -250,3 +250,21 @@
     filter: alpha(opacity=100);
     top: 0%;
 }
+
+#jokeDiv{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    -webkit-transition:all 4s ease-in-out;
+    -moz-transition:all 4s ease-in-out;
+    -ms-transition:all 4s ease-in-out;
+    -o-transition:all 4s ease-in-out;
+    transition:all 4s ease-in-out;
+}
+
+#c4:target #jokeDiv{
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
