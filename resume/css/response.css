@@ -33,11 +33,23 @@
         height:52px;
         border-radius: 50%;
     }
+    #detailInfoDiv{
+        margin-top: -10px;
+    }
     .SchoolInfo{
         padding: 5px;
         margin:5px auto;
         font-size: 18px;
     }
+    #schoolPhoto{
+        margin-top:0px;
+    }
+    #photoDiv{
+    position: relative;
+    left:50%;
+    margin-left: -100px;
+    margin-top: -10px;
+}
     /*c1 end*/
 }
 /*响应式布局end*/

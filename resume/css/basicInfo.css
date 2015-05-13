@@ -105,7 +105,9 @@
     }
 }
 /*闪烁动画end*/
-
+#detailInfoDiv{
+    margin-top: -10px;
+}
 .SchoolInfo{
     width: 90%;
     padding: 20px;
