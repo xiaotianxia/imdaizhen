@@ -5,6 +5,10 @@
     width: 90%;
     opacity: 0;
     filter:alpha(opacity=0);
+    -webkit-transition:all 2s ease-in-out;
+    -moz-transition:all 2s ease-in-out;
+    -ms-transition:all 2s ease-in-out;
+    -o-transition:all 2s ease-in-out;
     transition:all 2s ease-in-out;
 }
 #c3:target .projectsTable{
@@ -22,12 +26,18 @@
     border: 2px solid #fff;
     box-shadow: 0px 1px 4px rgba(0,0,0,0.8),
                 0px 0px 40px rgba(0,0,0,0.1) inset;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
     transition:all .3s ease-in-out;
 }
 .projectsTable td:hover{
     background: #2C6C98;
     -webkit-box-shadow: 0px 5px 4px rgba(0,0,0,0.8);
     -moz-box-shadow: 0px 5px 4px rgba(0,0,0,0.8);
+    -ms-box-shadow: 0px 5px 4px rgba(0,0,0,0.8);
+    -o-box-shadow: 0px 5px 4px rgba(0,0,0,0.8);
     box-shadow: 0px 5px 4px rgba(0,0,0,0.8);
 }
 .projectsTable img{
@@ -35,6 +45,8 @@
     border-radius: 5px;
     -webkit-box-shadow: 1px 2px 5px #111;
     -moz-box-shadow: 1px 2px 5px #111;
+    -ms-box-shadow: 1px 2px 5px #111;
+    -o-box-shadow: 1px 2px 5px #111;
     box-shadow: 1px 2px 5px #111;
 }
 .projectsTable .p{

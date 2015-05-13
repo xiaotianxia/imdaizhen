@@ -31,6 +31,10 @@
     background: #fff;
     position: absolute;
     bottom: 0;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -ms-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
     transition:all .5s ease-in-out;
 }
 .percent1{
@@ -117,6 +121,10 @@
     margin:200px auto;
     font-family: "微软雅黑" sans-serif;
     color:#fff;
+    -webkit-transition:all .8s ease-in-out 1s;
+    -moz-transition:all .8s ease-in-out 1s;
+    -ms-transition:all .8s ease-in-out 1s;
+    -o-transition:all .8s ease-in-out 1s;
     transition:all .8s ease-in-out 1s;
 }
 #skillsWords li{

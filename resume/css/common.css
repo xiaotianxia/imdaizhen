@@ -56,6 +56,8 @@ html{
     position:relative;
     background:-webkit-linear-gradient(top, #fff 30%, #d6d6d6);
     background:-moz-linear-gradient(top, #fff 30%, #ccc 60%, #d6d6d6 90%);
+    background:-ms-linear-gradient(top, #fff 30%, #ccc 60%, #d6d6d6 90%);
+    background:-o-linear-gradient(top, #fff 30%, #ccc 60%, #d6d6d6 90%);
     background:linear-gradient(top, #fff 30%, #d6d6d6);
     border-radius:50% 50% 45% 45%;
     margin:0 auto;
@@ -83,6 +85,8 @@ html{
     left:23px;
     -webkit-animation:blink 2s ease infinite;
     -moz-animation:blink 2s ease infinite;
+    -ms-animation:blink 2s ease infinite;
+    -o-animation:blink 2s ease infinite;
     animation:blink 2s ease infinite;
 }
 .righteye{
@@ -95,17 +99,23 @@ html{
     left:74px;
     -webkit-animation:blink 2s ease infinite;
     -moz-animation:blink 2s ease infinite;
+    -ms-animation:blink 2s ease infinite;
+    -o-animation:blink 2s ease infinite;
     animation:blink 2s ease infinite;
 }
 @keyframes blink{
     0%,20%, 100%{
     -webkit-transform:scale(1,1);
     -moz-transform:scale(1,1);
+    -ms-transform:scale(1,1);
+    -o-transform:scale(1,1);
     transform:scale(1,1);
     }
     10%{
         -webkit-transform:scale(1,0.2);
         -moz-transform:scale(1,0.2);
+        -ms-transform:scale(1,0.2);
+        -o-transform:scale(1,0.2);
         transform:scale(1,0.2);
     }
 }
@@ -113,11 +123,15 @@ html{
     0%,20%, 100%{
         -webkit-transform:scale(1,1);
         -moz-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+        -o-transform:scale(1,1);
         transform:scale(1,1);
     }
     10%{
         -webkit-transform:scale(1,0.2);
         -moz-transform:scale(1,0.2);
+        -ms-transform:scale(1,0.2);
+        -o-transform:scale(1,0.2);
         transform:scale(1,0.2);
     }
 }
@@ -144,6 +158,8 @@ html{
     font-weight: bold;
     -webkit-transition:all .3s ease-in;
     -moz-transition:all .3s ease-in;
+    -ms-transition:all .3s ease-in;
+    -o-transition:all .3s ease-in;
     transition:all .3s ease-in;
 }
 #nav li a{
@@ -167,9 +183,17 @@ html{
 }
 #mottoCN{
     -webkit-animation:show2Hide 3s ease infinite; 
+    -moz-animation:show2Hide 3s ease infinite; 
+    -ms-animation:show2Hide 3s ease infinite; 
+    -o-animation:show2Hide 3s ease infinite; 
+    animation:show2Hide 3s ease infinite; 
 }
 #mottoEN{
     -webkit-animation:hide2Show 3s ease infinite; 
+    -moz-animation:hide2Show 3s ease infinite; 
+    -ms-animation:hide2Show 3s ease infinite; 
+    -o-animation:hide2Show 3s ease infinite; 
+    animation:hide2Show 3s ease infinite; 
 }
 /*motto animation*/
 @-webkit-keyframes show2Hide{
@@ -180,7 +204,72 @@ html{
         margin-top: -25px;
     }
 }
+@-moz-keyframes show2Hide{
+    0%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: -25px;
+    }
+}
+@-ms-keyframes show2Hide{
+    0%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: -25px;
+    }
+}
+@-o-keyframes show2Hide{
+    0%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: -25px;
+    }
+}
+@keyframes show2Hide{
+    0%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: -25px;
+    }
+}
+
 @-webkit-keyframes hide2Show{
+    0%{
+        margin-top: 25px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+@-moz-keyframes hide2Show{
+    0%{
+        margin-top: 25px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+@-ms-keyframes hide2Show{
+    0%{
+        margin-top: 25px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+@-o-keyframes hide2Show{
+    0%{
+        margin-top: 25px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+@keyframes hide2Show{
     0%{
         margin-top: 25px;
     }
@@ -207,6 +296,14 @@ html{
 .boxShadow{
     position:relative;
     background: #fff;
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.8),
+                0px 0px 40px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.8),
+                0px 0px 40px rgba(0,0,0,0.1) inset;
+    -ms-box-shadow: 0px 1px 4px rgba(0,0,0,0.8),
+                0px 0px 40px rgba(0,0,0,0.1) inset;
+    -o-box-shadow: 0px 1px 4px rgba(0,0,0,0.8),
+                0px 0px 40px rgba(0,0,0,0.1) inset;
     box-shadow: 0px 1px 4px rgba(0,0,0,0.8),
                 0px 0px 40px rgba(0,0,0,0.1) inset;
 }
@@ -216,8 +313,16 @@ html{
     border:5px solid #efefef;
     background:#fff;
     position:relative;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.3),
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3),
                 0 0 60px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3),
+                0 0 60px rgba(0,0,0,0.1) inset;
+    -ms-box-shadow: 0 1px 4px rgba(0,0,0,0.3),
+                0 0 60px rgba(0,0,0,0.1) inset;
+    -o-box-shadow: 0 1px 4px rgba(0,0,0,0.3),
+                0 0 60px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3),
+                0 0 60px rgba(0,0,0,0.1) inset;            
 }
 /*为img设置阴影end*/
 /*common end*/
