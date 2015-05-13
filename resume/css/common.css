@@ -20,7 +20,7 @@ li{
 }
 html{
     background:#506f8b; 
-    background-image: -webkit-radial-gradient(circle,#506f8b 2%,#1d1e2e 80%);   
+    /*background-image: -webkit-radial-gradient(circle,#506f8b 2%,#1d1e2e 80%);*/   
 }
 #left{
     position: fixed;
