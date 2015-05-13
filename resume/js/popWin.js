@@ -29,7 +29,7 @@ function popWin(id){
 	$winCont.css({
 		"position":"absolute",
 		"left":lWin,
-		"top":tWin-200,
+		"top":tWin-250,
 		"display":"block",
 		"padding":"5px",
 		"max-height":"600",

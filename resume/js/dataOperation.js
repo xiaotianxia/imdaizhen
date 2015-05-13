@@ -10,9 +10,14 @@ function projectsLoad(jsonName,tableClass){
 				+".jpg' width='200' height='150' alt='"+jsonName[i].info
 				+"' title='点击查看详情' /><p style='color:#fff;'>"
 				+jsonName[i].info+"</p></td>"
-		if(i%3==2){
+		if(i==jsonLen-1){   //如果遍历完，只加tr的结束标签
 			trString+="</tr>";
 		}
+		else{
+			if(i%3==2){  //换行，还要加上tr开始标签
+				trString+="</tr><tr>";
+			}
+		} 
 	}
 	$(trString).appendTo("."+tableClass+" tbody");
 }
@@ -24,7 +29,7 @@ function showProjectDetail(e){
 	var $index=$(e).attr("id");
 	var $projectDetail="<img src='images/"
 					  +(projectsInfo[$index].picName==''?"noPic":projectsInfo[$index].picName)
-				      +".jpg' class='imgShadow' width='400' height='280' style='margin-left:75px;' /><br />"
+				      +".jpg' class='imgShadow' width='500' height='360' style='margin-left:20px;' /><br />"
 				      +"<p style='text-indent:20px;'>"
 					  +projectsInfo[$index].detail
 				      +"</p>"
