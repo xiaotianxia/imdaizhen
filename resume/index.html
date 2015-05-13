@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daizhen's Resume</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/titleLogo.ico" />
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/basicInfo.css">
+    <link rel="stylesheet" type="text/css" href="css/skills.css">
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+    <link rel="stylesheet" type="text/css" href="css/response.css">
+    <link rel="stylesheet" type="text/css" href="css/thx.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/currentTime.js"></script>
+    <script src="js/popWin.js"></script>
+    <script src="js/projectsInfo.js"></script>
+    <script src="js/dataOperation.js"></script>
+</head>
+
+<body>
+    <!-- 左侧 -->
+    <div id="left">
+        <div id="logo">
+            <div id="name">
+                I am Daizhen
+            </div>
+            <div class="baymax">
+                <div class="mouth"></div>
+                <div class="lefteye"></div>
+                <div class="righteye"></div>
+            </div>
+            <div id="time">
+                <span id="timeText">Hi, welcome!</span>
+            </div>
+        </div>
+        <div>
+            <ul id="nav">
+                <li><a href="#c1">简介&nbsp;&nbsp;</a></li>
+                <li><a href="#c2">技术&nbsp;&nbsp;</a></li>
+                <li><a href="#c3">项目&nbsp;&nbsp;</a></li>
+                <li><a href="#c4">谢谢&nbsp;&nbsp;</a></li>
+            </ul>
+        </div>
+        <div id="motto">
+          <p id="mottoCN">做自己，简简单单。</p>
+          <p id="mottoEN">Be true, be simple.</p>
+        </div>
+    </div>
+    <!-- 左侧end -->
+    <!-- 右侧 -->
+    <div id="right">
+        <!-- part1 -->
+        <div id="c1" class="container container1">
+            <div id="description">
+                <div class="label">基本信息</div>
+                <div class="boxShadow basicInfo">
+                    <p><span class="descTitle">学校：</span>北京邮电大学</p>
+                    <p><span class="descTitle">专业：</span>信息与通信工程</p>
+                    <p><span class="descTitle">邮箱：</span>434523316@qq.com</p>
+                    <p><span class="descTitle">github：</span><a target="_blank" href="http://github.com/xiaotianxia">github.com/xiaotianxia</a></p>
+                </div>
+            </div>
+            <div class="imgShadow schoolPic">
+               <div id="twinkleDiv"></div>
+               <img class="schoolLogo" src="images/schoolLogo.png" height="80" width="80" alt="schoolLogo"> 
+            </div>
+            <div class="clr"></div>
+            <div id="detailInfoDiv">
+                <div class="label">学历信息</div>
+                <div class="boxShadow SchoolInfo">
+                    <p>2013.9-至今&nbsp;北京邮电大学&nbsp;硕士研究生&nbsp;信息与通信工程学院&nbsp;可信分布式计算与服务教育部重点实验室&nbsp;多媒体通信与交互技术室</p>
+                </div>
+                <div class="boxShadow SchoolInfo">
+                    <p>2009.9-2013.7&nbsp;大连民族大学&nbsp;学士&nbsp;信息与通信工程学院&nbsp;电子信息工程专业</p>
+                </div>
+            </div>
+            <div id="schoolPhoto">
+                <div class="label">校园照片</div>
+                <div id="photoDiv">
+                    <img class="imgShadow photo1" src="images/photo1.jpg" alt="北邮" width="200" height='150' />
+                    <img class="imgShadow photo2" src="images/photo2.jpg" alt="北邮" width="200" height='150' />
+                    <img class="imgShadow photo3" src="images/photo3.jpg" alt="北邮" width="200" height='150' />
+                </div>
+            </div>
+        </div>
+        <!-- part1 end -->
+
+        <!-- part2 -->
+        <div id="c2" class="container container2">
+            <div class="label">前端技能</div>
+            <div id="skillsDiagram">
+                <div id="diagramCont">
+                <!-- data-info用于通过css3获取其内容赋给他的伪元素 -->
+                    <div class="skillDiv" data-info="HTML">
+                        <div class="percent percent1"></div>
+                        <div class="boxShadow bubble">
+                            熟悉HTML及HTML5
+                        </div>
+                    </div>
+                    <div class="skillDiv" data-info="JavaScript">
+                        <div class="percent percent2"></div>
+                        <div class="boxShadow bubble">
+                            熟悉JavaScript
+                        </div>
+                    </div>
+                    <div class="skillDiv" data-info="CSS">
+                        <div class="percent percent3"></div>
+                        <div class="boxShadow bubble">
+                            熟悉CSS及CSS3
+                        </div>
+                    </div>
+                    <div class="skillDiv" data-info="jQuery">
+                        <div class="percent percent4"></div>
+                        <div class="boxShadow bubble">
+                            熟悉jQuery框架
+                        </div>
+                    </div>
+                    <div class="skillDiv" data-info="Others">
+                        <div class="percent percent5"></div>
+                        <div class="boxShadow bubble" style="width:300px;margin-left: -150px;">
+                            LESS、SASS、BootStrap、AngularJS、PhotoShop等
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="skillsWords">
+              <ul>
+                <li id="sw1">熟悉HTML/CSS/JavaScript/JSON、jQuery库、Ajax技术等，了解HTML5、CSS3、LESS、SASS、BootStrap、AngularJS等，具有WEB开发经验及成果;</li>
+                <li id="sw2">了解Java、PHP、C语言等基础，熟悉前后台联调，熟悉Photoshop等图像处理软件；</li>
+                <li id="sw3">证书：计算机二级证书，英语六级证书，英语四、六级口语证书；</li>
+                <li id="sw4">具有一定的组织协调能力，协调团队完成预期的任务，并有一定的文档编写能力。</li>
+              </ul>
+            </div>
+        </div>
+        <!-- part2 end-->
+
+        <!-- part3 -->
+        <div id="c3" class="container container3">
+            <div id="experience">
+                <div class="label">项目经历</div>
+                <div id="tableCont">
+                    <table class="projectsTable">
+                        <!-- 通过dataOperation.js将projects.js中的json数据加载进来 -->
+                        <tbody>
+                        </tbody>
+                    </table>                    
+                </div>
+            </div>
+        </div>
+        <div id="projectDetailDiv" style="display:none;width:600px;"></div>
+        <!-- part3 end -->
+
+        <!-- part4 -->
+        <div id="c4" class="container container4">
+            <div id="thx">
+              <div class="label">&nbsp;谢谢&nbsp;</div>
+               <div id="thxHeart">
+                  <p id="welcome">Thank U.</p>
+                  <div id="heart">
+                    <div class="top" id="div1"></div>
+                    <div class="top" id="div2"></div>
+                    <div class="bottom" id="div3"></div>
+                    <div class="bottom" id="div4"></div>
+                    <div id="div5"></div>
+                  </div>
+                  <div id="myName">
+                    <p id="daizhen">I am Daizhen.</p>
+                  </div>
+              </div> 
+            </div>
+            <hr style="border:dashed 1px #a10;margin-top:10px;">
+            <div id="jokeDiv">
+                <img class="yaomingImg imgShadow" src="images/yaoming.jpg" height="150" width="150" alt="呵呵">
+                <img class="jokeImg imgShadow" src="images/joke.png" height="200" width="400" alt="joke">
+            </div> 
+        </div>
+        <!-- part4 end -->
+    </div>
+    <!-- 右侧end -->
+    <script>
+      $(function() {
+          projectsLoad(projectsInfo, "projectsTable");
+      })
+    </script>
+</body>
+
+</html>

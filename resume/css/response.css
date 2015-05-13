@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/*响应式布局*/
+@media screen and (max-width:1110px){
+   /*c1*/
+   #description{
+        float: none;
+    }
+    .basicInfo{
+        margin: 0 auto;
+        width: 300px;
+        padding: 5px;
+    }
+    .schoolPic{
+        float: none;
+        position: relative;
+        margin:10px auto;
+        width: 300px;
+        height:156px;
+        background-size: cover;
+    }
+    .schoolPic .schoolLogo{
+        width: 48px;
+        height:48px;
+        top: 10px;
+        left: 10px;
+        transition:all 1s ease-in-out;
+    }
+    .schoolPic #twinkleDiv{
+        top: 7px;
+        left: 7px;
+        width: 52px;
+        height:52px;
+        border-radius: 50%;
+    }
+    .SchoolInfo{
+        padding: 5px;
+        margin:5px auto;
+        font-size: 18px;
+    }
+    #schoolPhoto{
+        margin-top:0px;
+    }
+    #photoDiv{
+    position: relative;
+    left:50%;
+    margin-left: -100px;
+    margin-top: -10px;
+}
+    /*c1 end*/
+}
+/*响应式布局end*/
