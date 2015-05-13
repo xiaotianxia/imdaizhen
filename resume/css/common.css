@@ -18,9 +18,23 @@ li{
 .clr{/*清除浮动*/
     clear:both;
 }
-html{
+/*html{
     background:#506f8b; 
-    /*background-image: -webkit-radial-gradient(circle,#506f8b 2%,#1d1e2e 80%);*/   
+}*/
+body{
+  background-color: #282828;
+  background-image: 
+    -webkit-radial-gradient(black 15%, transparent 16%), 
+    -webkit-radial-gradient(black 15%, transparent 16%), 
+    -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), 
+    -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+  background-image: 
+    radial-gradient(black 15%, transparent 16%), 
+    radial-gradient(black 15%, transparent 16%), 
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), 
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+  background-position: 0 0px, 8px 8px, 0 1px, 8px 9px;
+  background-size: 16px 16px;
 }
 #left{
     position: fixed;
@@ -32,7 +46,7 @@ html{
     position: absolute;
     left: 220px;
     right: 10px;
-    bottom: 20px;/*后来改为0  换成padding*/
+    bottom: 20px;
     top:20px;
     border-left:1px solid #f00;
     overflow: hidden;
@@ -46,7 +60,7 @@ html{
     position:absolute;
     left: 25px;
     top:25px;
-    font: 25px "微软雅黑" sans-serif;
+    font: 25px "微软雅黑",sans-serif;
     color:#fff;
 }
 /*bayMax part*/
@@ -139,7 +153,7 @@ html{
 #time{
     margin: 20px 0 0 30px;
     color:#fff;
-    font: 15px "微软雅黑" sans-serif;
+    font: 15px "微软雅黑",sans-serif;
 }
 /*logo part end*/
 /*nav part*/
@@ -178,7 +192,7 @@ html{
     position: fixed;
     bottom:50px;
     left:20px;
-    font:18px "微软雅黑" sans-serif;
+    font:18px "微软雅黑",sans-serif;
     color:#fff;
 }
 #mottoCN{
@@ -292,6 +306,7 @@ html{
     font-size: 18px;
     font-weight: bold;
 }
+
 /*为div设置阴影*/
 .boxShadow{
     position:relative;

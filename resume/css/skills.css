@@ -22,7 +22,7 @@
 #diagramCont .skillDiv:after{
     content:attr(data-info);
     color:#fff;
-    font-family: "微软雅黑" sans-serif;
+    font-family: "微软雅黑",sans-serif;
     position: absolute;
     top:105%;
 }
