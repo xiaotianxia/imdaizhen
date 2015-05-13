@@ -18,10 +18,10 @@ li{
 .clr{/*清除浮动*/
     clear:both;
 }
-/*html{
-    background:#506f8b; 
-}*/
 body{
+    background:#506f8b; 
+}
+/*body{
   background-color: #282828;
   background-image: 
     -webkit-radial-gradient(black 15%, transparent 16%), 
@@ -35,7 +35,7 @@ body{
     radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
   background-position: 0 0px, 8px 8px, 0 1px, 8px 9px;
   background-size: 16px 16px;
-}
+}*/
 #left{
     position: fixed;
     top:20px;
