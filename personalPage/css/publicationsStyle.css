@@ -30,15 +30,17 @@
 .publicationsTable a.button{
 	cursor: pointer;
 	text-decoration:none;
-	background:rgba(81, 203, 238, 1);
+	background:#51CBEE;
 	color:#000;
 	padding: 2px;
 	font:12px '微软雅黑';
 	border-radius:3px;	
 	-webkit-transition:all linear 0.30s;
 	-moz-transition:all linear 0.30s;
+	-ms-transition:all linear 0.30s;
+	-o-transition:all linear 0.30s;
 	transition:all linear 0.30s;
 }
 .publicationsTable a.button:hover{
-	background:rgba(39, 154, 187, 1);
+	background:#279ABB;
 }
