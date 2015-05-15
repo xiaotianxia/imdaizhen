@@ -155,17 +155,22 @@ body{
     color:#fff;
     font: 15px "微软雅黑",sans-serif;
 }
+#weather{
+    margin-left: 20px;
+    margin-top: 20px;
+}
 /*logo part end*/
 /*nav part*/
 #nav{
     /*border:1px solid yellow;*/
     margin-left: 10px;
+    margin-top: 80px;
     border-left: 4px #f20 solid;
-    height: 250px;
+    height: 190px;
 
 }
 #nav li{
-    margin: 40px 0 0 20px;
+    margin: 20px 0 0 20px;
     width: 100px;
     padding: 5px;
     font-size:20px;
