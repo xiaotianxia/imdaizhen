@@ -279,6 +279,7 @@
 }
 /*字下降end*/
 #myName {
+    z-index: 2;
     width: 130px;
     height: 110px;
     position: absolute;
