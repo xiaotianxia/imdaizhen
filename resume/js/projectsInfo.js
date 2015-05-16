@@ -9,7 +9,7 @@ projectsInfo=[
 	"picName":"project2",
 	"info":"湖南海事局会议室预定系统",
 	"detail":"湖南海事局会议室预定系统，提供对该局所有会议室信息的读取显示、会议室预定、预订信息查询、会议资料上传下载等功能。",
-	"url":"http://xiaotianxia.github.io/sucai/meetReservationSys/"
+	"url":"http://xiaotianxia.github.io/imdaizhen/meetReservationSys/"
 },
 {
 	"picName":"project3",
@@ -21,7 +21,7 @@ projectsInfo=[
 	"picName":"project4",
 	"info":"ICSINC国际会议官方网站",
 	"detail":"ICSINC（International Conference on Signal Processing on Information, Network and Computer）官方网站。主要是一些静态页面。",
-	"url":"http://xiaotianxia.github.io/sucai/ICSINC/"
+	"url":"http://xiaotianxia.github.io/imdaizhen/ICSINC/"
 },
 {
 	"picName":"",
