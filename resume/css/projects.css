@@ -17,7 +17,6 @@
     filter:alpha(opacity=100);
 }
 .projectsTable tr{
-    /*display: inline-block;*/
     margin:10px;
 }
 .projectsTable td{
