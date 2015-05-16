@@ -14,13 +14,13 @@ projectsInfo=[
 {
 	"picName":"project3",
 	"info":"大连海事大学王新年教授个人主页",
-	"detail":"大连海事大学王新年教授个人主页，页面大部分数据、图片及表格全部通过js解析json数据生成，便于后期编辑。",
+	"detail":"大连海事大学王新年教授个人主页，页面大部分数据、图片及表格全部通过js解析json数据生成，便于后期编辑及修改。",
 	"url":"http://sipi.dlmu.edu.cn/wxn.html"
 },
 {
 	"picName":"project4",
 	"info":"ICSINC国际会议官方网站",
-	"detail":"ICSINC（International Conference on Signal Processing on Information, Network and Computer）官方网站。主要是一些静态页面。",
+	"detail":"ICSINC（International Conference on Signal Processing on Information, Network and Computer）官方网站。主要是一些静态页面、列表、图片的展示。",
 	"url":"http://xiaotianxia.github.io/imdaizhen/ICSINC/"
 },
 {
